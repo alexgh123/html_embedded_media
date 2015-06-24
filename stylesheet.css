@@ -4,7 +4,7 @@ div {
 
 #player {
 
-  background-color: gray;
+  /*background-color: gray;*/
   margin:1em;
   text-align: left;
   padding:1em;
@@ -15,10 +15,11 @@ div {
 
 #list {
 
-  background-color: red;
-  color: white;
+  /*background-color: red;*/
+  color: black;
   margin:1em;
   float:right;
+
   padding:1em;
   border: 1px solid black;
 
