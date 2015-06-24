@@ -1,9 +1,15 @@
+div {
+  display: :inline-block;
+}
+
 #player {
 
   background-color: gray;
   margin:1em;
-  /*padding:1em;*/
   text-align: left;
+  padding:1em;
+  float: left;
+  border: 1px solid black;
 
 }
 
@@ -12,64 +18,8 @@
   background-color: red;
   color: white;
   margin:1em;
+  float:right;
+  padding:1em;
+  border: 1px solid black;
 
 }
-/*
-
-i haven't done css in a while, need the references below
-
-#header {
-  list-style-type: none;
-  margin:0;
-  padding:0;
-  text-align: right;
-}
-
-li {
-  display:inline;
-  margin:.25em;
-}
-
-
-
-#logo {
-  /*border: 2px dashed red;
-  background-color: green;*/
-
-  margin-left: 15em;
-  margin-right:40%;
-  margin-top: 10em;
-  width:40em;
-
-
-  /*margin-top:
-  min-height:10em;*/
-}
-
-#input_box {
-
-
-  margin-left: 23em;
-  margin-right: 40%;
-  width: 25em;
-  margin-top: 2em;
-
-}
-
-#search_buttons {
-  margin-left: 5em;
-  margin-right:40%;
-  margin-top: 1em;
-  width: 40em;
-
-  /*ideally, the search buttons, logo and search field thing should all be one element based on how they move, encapsulated in a div maybe*/
-}
-
-#footer_left {
-  list-style-type: none;
-  margin:0;
-  padding:0;
-  text-align: left;
-  margin-top: 5em;
-}
-*/
